@@ -48,6 +48,7 @@
     ]
   },
   "devDependencies": {
-    "fork-ts-checker-webpack-plugin": "^7.3.0"
+    "fork-ts-checker-webpack-plugin": "^7.3.0",
+    "gh-pages": "^5.0.0"
   }
 }
