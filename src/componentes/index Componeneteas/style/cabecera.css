@@ -3,56 +3,118 @@
 
 .head{
     width: 100%;
-    height: 6rem;
+    height:6rem;
 }
 .head-info{
-    width: 100%;
-    height: 40%; 
+    width:100%;
+    height: 40%;
+    min-height: 40px;
     background-color: #FDC2C2;
-    font-family: 'Source Sans Pro', sans-serif;
+    display: grid;
+    grid-template-columns: 5% 45% 45% 5%;
+    grid-template-rows: 100%;
+}
+.info-contacto{
+    grid-column-start: 2;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 0 14rem;
+    margin-left: 50px;
+}
+.info-contacto h4{
+    font-family: 'Gothic A1', sans-serif;
 }
 .info-redes{
-    width: 20%;
+    grid-column-start: 3;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+
 }
 .redes{
     display: flex;
-    justify-content: space-around;;
-}
-.redes,.options{
+    justify-content: space-around;
+    flex-direction: row;
     list-style: none;
+    width:15rem;
+    margin-right: 50px;
 }
 
 .head-menu{
     width: 100%;
-    height: 60%; 
-    display: flex;
-    justify-content: space-between;
-    padding: 0 9rem;
+    height: 60%;
+    display: grid;
+    grid-template-columns: 5% 25% 35% 30% 5%;
+    grid-template-rows: 100%;
+}
+.menu-logo{
+    grid-column-start: 2;
+    
+}
+.logo-marcarmenBohorquez{
+    height: 100%;
 }
 .menu-options{
+    grid-column-start: 4;
+    width: 100%; 
     display: flex;
     align-items: center;
-    width: 30%;
 }
 .options{
+    list-style: none;
     display: flex;
+    justify-content: space-between;
+    flex-direction: row;
     width: 100%;
     height: 40%;
     justify-content: space-around;
     align-items: center;
 
-}.options li{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.1rem;
-    padding: 5px;
-    margin: 0 5px;
 }
+.options li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.options li a{
+    text-decoration: none;
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 900;
+    color: black;
+}
+.bar{
+    width: 100%;
+    height: 5px;
 
-/*estilos de ion-icons*/
-ion-icon{
-    font-size: 1.3rem;
+}
+.aux{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.bar{
+    width: 100%;
+    height: 3px;
+}
+.galeria-desplegable{
+    width: 7rem;
+    height: 8.5rem;
+    background-color: white;
+    box-shadow: 3px 6px 5px -3px rgba(0,0,0,0.75);
+    position: absolute;
+    top :5rem;
+}
+.galeria-desplegable a{
+    width: 100%;
+    height: 25%;
+    display:flex;   
+    flex-wrap: nowrap;
+}
+.selector{
+    width: 1rem;
+    background-color: black;
+}
+.categori{
+    display: flex;
+    align-items: center;
+    padding-left: 0.3rem;
 }
