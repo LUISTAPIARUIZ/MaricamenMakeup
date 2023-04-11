@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/MaricamenMakeup/static/css/main.69e29453.css",
+    "main.js": "/MaricamenMakeup/static/js/main.70319b18.js",
+    "static/media/Logo.png": "/MaricamenMakeup/static/media/Logo.9abbc5c02aa3e3ab1be2.png",
+    "index.html": "/MaricamenMakeup/index.html",
+    "main.69e29453.css.map": "/MaricamenMakeup/static/css/main.69e29453.css.map",
+    "main.70319b18.js.map": "/MaricamenMakeup/static/js/main.70319b18.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69e29453.css",
+    "static/js/main.70319b18.js"
+  ]
+}
