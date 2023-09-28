@@ -1,0 +1,80 @@
+.containerMarks{
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    margin-bottom:2rem ;
+}
+.containerPreviousText{
+    width: 100%;
+    height: auto;
+    min-height: 15rem;
+    background-color: #313131;
+    color: white;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    padding: 1rem 10rem;
+}
+.containerPreviousText p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.iconArrowButton {
+    width:2rem !important;
+    height:2rem !important;
+    margin: 0.5rem;
+}
+.containerLogoMarks{
+    width:100%;
+    height: auto;
+    min-height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(121, 121, 121);
+}
+.Logos{
+    border-radius: 0.8rem;
+    background-color: #D4D4D4;
+    width: 90%;
+    min-height: 16rem;
+    height: auto;
+    display: grid;
+    grid-template-columns:repeat(5,1fr);
+    gap: 2rem;
+    padding: 2rem;
+    margin: 2rem ;
+
+}
+.Logos figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Logos figure img{
+    max-width: 80%; /* Ajusta la imagen al ancho máximo del contenedor */
+    height: auto;
+}
+@media (max-width: 830.40px) {
+    .containerPreviousText{
+        padding: 1rem 2rem;
+    }
+    .containerPreviousText p{
+        font-size: 1rem;
+    }
+    .Logos{
+        grid-template-columns:repeat(4,1fr);
+    }
+}
+@media (max-width: 600px) {
+
+    .Logos{
+        grid-template-columns:repeat(3,1fr);
+    }
+}

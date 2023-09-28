@@ -1,0 +1,175 @@
+.footer{
+
+    width: 100%;
+    height: 14.6em;
+}
+.footer-main{
+    display: flex;
+    justify-content:  space-around;
+    align-items: center;
+    height: auto;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 75%;
+
+    background-color:#4D4D4D;
+}
+
+
+.main-content{
+    max-width:  30%;
+    min-width:25rem;
+    height: 90%;
+    padding: 15px; 
+}
+/*estilos para las lineas devisoras*/
+    .dividingLine{
+        width: 0%;
+        height:8.5rem;
+        border: 1px solid rgba(129, 129, 129, 0.841);
+    }
+/*estilos del la descripion en el  footer ubicado en la izquierda*/
+.contenLogo {
+    width: 40%;
+    background-color: white;
+    margin-bottom: 10px;
+}
+.contenLogo img{
+    width: 100%;
+}
+
+.description p{
+    font-size:0.8rem;
+    color: white;
+}
+/*estilos para la parte central , servicios y contactos*/
+.iconPhone{
+    transform:rotate(110deg);
+}
+.servicesContact{
+    display: flex;
+    justify-content: space-around;
+    color: white; 
+}
+.servicesContact h3{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    display: inline-block;
+}
+.services ul,.contact ul{
+    padding-top:11px ;
+    list-style: none;
+    font-size: 0.8rem;
+    
+}
+.services ul li,.contact ul li{
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.contact ul li p{
+    margin-left:6px ;
+}
+/*estilos para el envio de correos*/
+.mail{
+    color: white;
+    height: 10em;
+
+}
+.mail h3{
+    border-bottom: 2px solid rgb(255, 255, 255);
+    display: inline-block;
+    min-height: 20%;
+    height: auto;
+}
+.mail form {
+    display: flex;
+    width: 100%;
+    min-height: 80%;
+    height: auto    ;
+    align-items: center;
+}
+.form-mail{
+    width: 100%;
+}
+.form-mail span{
+    display: block;
+}
+.form-mail input{
+    border: none;
+    max-width: 70%;
+    min-width:12rem;
+    margin:0.5rem 1.2rem 0 0 ;
+    height: 1.8rem;
+}
+.contentComponentButonMain{
+    display: inline-block;
+    position: absolute;
+    border: none;
+    max-width: 20%;
+    min-width:5rem;
+    margin:0.5rem 2rem 0 0 ;
+    height: 1.8rem;
+}
+.contentComponentButonMain:hover{
+    transform: translate(0px ,-1px);
+    transition: 0.5;
+}
+/*pie de pagina redes */
+.footer-redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 25%;
+    background-color: #696565;
+}
+.footer-redes figure{
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+}
+.footer-redes figure img{
+    width: 1.5rem;
+    filter: invert(1);    
+}
+@media (max-width: 1219.5px) { 
+    .lineTwo{
+        display: none;
+    }
+}
+@media (max-width: 818.4px) { 
+    .lineOne{
+        display: none;
+    }.description , .mail {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .description p{
+        text-align: center;
+    }
+    .mail form{
+        display: flex;
+        justify-content: center;
+    }
+    .form-mail{
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .form-mail span{
+        grid-column: 1;
+    }
+    .form-mail input{
+        grid-row:2 ;
+
+    }
+    .form-mail div{
+        position: static;
+        grid-column: 2;
+        grid-row:2 ;
+    }
+}
+

@@ -1,0 +1,59 @@
+.carouselEdit{
+    height: 28rem !important;
+}
+.carouselEdit img{
+    width: 100vw;
+    height: 30rem;
+
+}
+.butonControlSlider{
+    background-color: transparent;
+    color: white;
+    width: 2.5rem;
+    height: 3rem;
+    border: none;
+}
+.butonControlSlider:first-child svg{
+    width: 100%;
+    height: auto;
+
+}
+.slider-control-bottomcenter{
+    background-color: white;
+    margin-bottom:10px ;
+    border-radius: 15px;
+}
+.slider-control-bottomcenter ul{
+    top: 0 !important;
+    width:10rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10px !important;
+}
+.paging-item button{
+    height: 20px;
+    width: 20px;
+    fill: #a1a1a1 !important;;
+}
+.paging-dot{
+
+    width: 0.9rem;
+    height: 1.9rem;
+}
+.paging-dot circle {
+    r: 3; /* Cambia el radio */
+    cx:3;
+    cy:3;
+  } 
+  .active button{
+    fill: #EE6D6D !important;
+  }
+
+  /*estilos externos*/
+  .slider-list{
+    height: 100% !important;
+  }
+  .slide img{
+    height: 100% !important;
+  }
