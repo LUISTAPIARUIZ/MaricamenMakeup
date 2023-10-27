@@ -1,0 +1,23 @@
+.headerGalery{
+    width: 100%;
+    height: 5rem;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.TitleGalery{
+    color: #EC7777;
+    font-family: MMSchoolRD;
+    font-size: 2rem;
+}
+.TitleComplement{
+    color: #565656;
+    font-family: MMSchoolRD;
+    font-size: 2rem;
+}
+.ContentAlbun{
+    padding: 0 2rem;
+}

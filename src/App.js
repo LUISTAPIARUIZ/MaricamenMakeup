@@ -1,6 +1,9 @@
 import Header from '../src/components/header/Header.jsx'
 import Pageindex from './componetsPage/PageIndex/PageIndex.jsx'
 import PageGalery from './componetsPage/PageGalery/PageGalery.jsx';
+import Footer from './components/Footer/Footer.jsx'
+import Pageservices from './componetsPage/PageServices/Pageservices.jsx';
+import Pagecontact from './componetsPage/PageContact/Pagecontact.jsx';
 import './App.css';
 import React,{useState} from 'react';
 
@@ -34,9 +37,16 @@ function App() {
               )}         
               {pages==="Formacion"  &&(
                 <PageGalery type={pages}/>
-              )}         
+              )}    
+              {pages==="Servicios"  &&(
+                <Pageservices/>
+              )}      
+              {pages==="Contacto"  &&(
+                <Pagecontact/>
+              )}      
           </div>
       </main>
+      <Footer/>
     </div>
   );
 }

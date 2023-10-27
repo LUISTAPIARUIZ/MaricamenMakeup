@@ -1,0 +1,39 @@
+.containerContact{
+    width: 100%;
+    height: auto;
+    padding: 0.5rem;
+    display:grid;
+    place-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4rem auto;
+}
+.contact-List{
+    width: 60%;
+    height: 100%;
+    background-color: #FDC2C2;
+    border-radius: 15px;
+}
+.List-itemContact{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.itemContact figure img {
+    height: 2.8rem;
+}
+
+.contacts{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 0.8rem;
+}
+.contacts-Gmail{
+    width: 80%;
+}

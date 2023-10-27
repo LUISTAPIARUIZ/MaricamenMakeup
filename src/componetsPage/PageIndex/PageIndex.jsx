@@ -1,4 +1,3 @@
-import Footer from '../../components/Footer/Footer.jsx'
 import Slidermain from '../../components/SliderMain/Slidermain.jsx';
 import Worlinfo from '../../components/workInfo/Workinfo.jsx';
 import PersonInfo from '../../components/PersonInfo/Personinfo.jsx';
@@ -15,7 +14,6 @@ const Pageindex =(props)=>{
           <PersonInfo/>
           <WorkGalery/> 
           <MarkInfo/>
-          <Footer/>
         </div>
     )
 }

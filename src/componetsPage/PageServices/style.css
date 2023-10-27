@@ -1,0 +1,28 @@
+.HeaderServices{
+    width: 100%;
+    height: 5rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.TitleServices{
+    color: #EC7777;
+    font-family: MMSchoolRD;
+    font-size: 2rem;
+}
+.contentServices{
+    width: 100%;
+    height: 23rem;
+    display: flex;
+    justify-content: center;
+    background-color: #AEAEAE;
+    margin-bottom: 2.5rem;
+}    
+.services{
+    width: 100%;
+    padding: 0 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
