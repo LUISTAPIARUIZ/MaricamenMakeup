@@ -31,17 +31,102 @@
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     padding: 0.8rem;
 }
+/* estilos del formulario de gmail*/
 .contacts-Gmail{
-    width: 80%;
+    width: 70%;
     display: grid;
-    grid-template-columns: 45% 60%;
+    grid-template-columns: 50% 50%;
     grid-template-rows: 1fr;
 }
 .containerImgContact figure img{
     width: 100%;
-    height: 25rem;
+    height: 30rem;
     object-fit: cover;
 }
+.containetFormContacGmail{
+    padding: 1rem;
+}
+.contact-form{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3,20%) 30% 10% ;
+}
+.form-group input,textarea,select{
+    width: 100%;
+    min-height: 2rem;
+}
+.form-group textarea{
+    height: 6.5rem;
+    padding: 0.5rem;
+}
+
+.AuxiliaryPhoneServices{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+}
+/*Estilos para contactos Whatsapp*/
+.contacts-Whatsapp{
+    height:30rem ;
+    width: 60%;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    place-items:center;
+    overflow: hidden;
+}
+.contacts-Whatsapp figure img{
+    width:10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+.whatsapp-info{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./img/fondoWhatsapp.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+
+}
+.containerBtnWhatsapp{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #02BEA5;
+}
+.whatsapp-btn{
+    height: 2rem;
+    width: 7rem;
+}
+.whatsapp-info_radio-group{
+    display: flex;
+    flex-direction: column;
+}
+.whatsapp-info_radio-group label input{
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: aliceblue;
+    border: 1px solid #000;
+    border-radius: 0; 
+    margin-right: 5px;
+}
+.whatsapp-info_radio-group label input:checked{
+    background-color: #000; 
+}
+
+/*Estilos para contactos Instagran*/
+/*Estilos para contactos Faceboock*/

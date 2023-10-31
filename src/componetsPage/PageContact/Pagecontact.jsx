@@ -6,6 +6,7 @@ import imgMail from "./img/gmail.png"
 import imgWhatsapp from "./img/whatsapp.png"
 import BtnEnviar from "../../components/BotonMain/Btn-main.jsx"
 import imgFormGmail from "./img/imgFrormGmail.jpg"
+import imgPersona from "../../components/PersonInfo/img/Persona.jpg"
 
 const Pagecontact = ()=>{ 
     return(
@@ -60,29 +61,29 @@ const Pagecontact = ()=>{
                                     required
                                     />
                                 </div>
+                                <div className="AuxiliaryPhoneServices">
+                                    <div className=" form-group FormServicesGmail">
+                                        <label htmlFor="servicio">Servicio:</label>
+                                        <select
+                                        id="servicio"
+                                        name="servicio"
+                                        >
+                                        <option value="seleccionar">Novias</option>
+                                        <option value="servicio1">Evento</option>
+                                        <option value="servicio2">Catalogo</option>
+                                        <option value="servicio3">Fomracion</option>
+                                        </select>
+                                    </div>
 
-                                <div className="form-group FormPhoneGmail">
-                                    <label htmlFor="telefono">Teléfono:</label>
-                                    <input
-                                    type="number"
-                                    id="telefono"
-                                    required
-                                    />
+                                    <div className="form-group FormPhoneGmail">
+                                        <label htmlFor="telefono">Teléfono:</label>
+                                        <input
+                                        type="number"
+                                        id="telefono"
+                                        required
+                                        />
+                                    </div>       
                                 </div>
-
-                                <div className="form-group FormServicesGmail">
-                                    <label htmlFor="servicio">Servicio:</label>
-                                    <select
-                                    id="servicio"
-                                    name="servicio"
-                                    >
-                                    <option value="seleccionar">Novias</option>
-                                    <option value="servicio1">Evento</option>
-                                    <option value="servicio2">Catalogo</option>
-                                    <option value="servicio3">Fomracion</option>
-                                    </select>
-                                </div>
-
                                 <div className="form-group FormMasajeGmail">
                                     <label htmlFor="mensaje">Mensaje:</label>
                                     <textarea
@@ -95,6 +96,42 @@ const Pagecontact = ()=>{
                                 </div>
                             </form>
                         </div>
+                </div>
+                <div className="contacts-Whatsapp">
+                    <div className="whatsapp-info">
+                            <figure>
+                                <img src={imgPersona} alt="" />
+                            </figure>
+                            <div>
+                                <p>Maricarmen Make Up</p>
+                            </div>
+                            <div class="whatsapp-info_radio-group">
+                                <h5>Servicios</h5>
+                                <label>
+                                    Opción 1<input type="radio" name="opcion" value="opcion1"/>
+                                </label>
+                                <label>
+                                    Opción 2<input type="radio" name="opcion" value="opcion2"/>
+                                </label>
+                                <label>
+                                    Opción 3<input type="radio" name="opcion" value="opcion3"/>
+                                </label>
+                                <label>
+                                    Opción 3<input type="radio" name="opcion" value="opcion4"/>
+                                </label>
+                            </div>
+                    </div>
+                    <div className="containerBtnWhatsapp">
+                        <div className="whatsapp-btn">
+                            <BtnEnviar class="btn pink font-size-mediun" text="Contactar" />
+                        </div>
+                    </div>
+                </div>
+                <div className="contacts-Instagram">
+
+                </div>
+                <div className="contacts-Faceboock">
+
                 </div>
             </div>
         </section>
