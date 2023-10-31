@@ -23,6 +23,13 @@
     justify-content: space-around;
     align-items: center;
 }
+.itemContact{
+    height: 100%;
+    width: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .itemContact figure img {
     height: 2.8rem;
 }
@@ -76,12 +83,13 @@
     height:30rem ;
     width: 60%;
     border-radius: 20px;
+    box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.75);
     display: grid;
     grid-template-columns: repeat(2,50%);
     place-items:center;
     overflow: hidden;
 }
-.contacts-Whatsapp figure img{
+.info-Photo img{
     width:10rem;
     height: 10rem;
     border-radius: 50%;
@@ -99,6 +107,11 @@
     background-repeat: no-repeat;
 
 }
+.whatsapp-info_Name p{
+    font-size: 1.2rem;
+    text-decoration: underline;
+    text-align: center;
+}
 .containerBtnWhatsapp{
     width: 100%;
     height: 100%;
@@ -107,26 +120,67 @@
     align-items: center;
     background-color: #02BEA5;
 }
-.whatsapp-btn{
+.btnMain{
     height: 2rem;
     width: 7rem;
 }
 .whatsapp-info_radio-group{
     display: flex;
     flex-direction: column;
+    width: 10rem;
+}
+.whatsapp-info_radio-group label{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.whatsapp-info_radio-group h5{
+    text-align: center;
+    font-size: 1.5rem;
 }
 .whatsapp-info_radio-group label input{
     appearance: none;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     background-color: aliceblue;
     border: 1px solid #000;
     border-radius: 0; 
     margin-right: 5px;
 }
 .whatsapp-info_radio-group label input:checked{
-    background-color: #000; 
+    background-color: #02BEA5; 
 }
 
 /*Estilos para contactos Instagran*/
+.contacts-Instagram{
+    background-image: url("./img/fondoInstagram.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 20px;
+    width: 60%;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Instagram-name img{
+    width: 13rem;
+}
+.InfoNameInstagram,.infoPhotoInstagram,.Instagram-name,.BtnContactInstagram{
+    padding: 1rem;
+}
 /*Estilos para contactos Faceboock*/
+.contacts-Faceboock{
+    background-color: #FFFFFF;
+    box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 20px;
+    width: 60%;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
