@@ -12,7 +12,7 @@ const Pageservices =()=>{
             </div>
             
             <div className="contentServices">
-                <div className="services">
+                <div className="servicesMain">
                     <figure height="100%">
                         <img src={Persona} alt=""  height="100%" />
                     </figure>
@@ -20,7 +20,7 @@ const Pageservices =()=>{
                 </div>
             </div>
             <div className="contentServices">
-                <div className="services">
+                <div className="servicesMain">
                     <Descriptionservices title={'Novias'} description={['hola asdasdasdasdasdasdasdasd','comoasdasdasdasdasdasdasd asd sadas dsad asd ','estaasdasd asd asd asda sdasdasdsads']}/>
                     <figure height="100%">
                         <img src={Persona} alt=""  height="100%" />
@@ -28,7 +28,7 @@ const Pageservices =()=>{
                 </div>
             </div>
             <div className="contentServices">
-                <div className="services">
+                <div className="servicesMain">
                     <figure height="100%">
                         <img src={Persona} alt=""  height="100%" />
                     </figure>
@@ -36,7 +36,7 @@ const Pageservices =()=>{
                 </div>
             </div>
             <div className="contentServices">
-                <div className="services">
+                <div className="servicesMain">
                     <Descriptionservices title={'Novias'} description={['hola asdasdasdasdasdasdasdasd','comoasdasdasdasdasdasdasd asd sadas dsad asd ','estaasdasd asd asd asda sdasdasdsads']}/>
                     <figure height="100%">
                         <img src={Persona} alt=""  height="100%" />

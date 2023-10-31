@@ -54,7 +54,7 @@ const PageGalery =({type})=>{
         
     ];
     return(
-        <div>
+        <div className="containerGalery">
 
             <div className="headerGalery">
                 <p className="TitleGalery">Galeria :</p>
