@@ -19,7 +19,10 @@ const PersonInfo =(props)=>{
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iste consequatur aliquam harum. Aliquid, recusandae? At minus nostrum tenetur molestias dignissimos, est fugiat earum tempora. Fuga veniam libero eligendi facilis.
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore iste consequatur aliquam harum. Aliquid, recusandae? At minus nostrum tenetur molestias dignissimos, est fugiat earum tempora. Fuga veniam libero eligendi facilis.
                     </p>
-                    <div>
+                    <div 
+                    onClick={() => {
+                    props.selectPage("Contacto");
+                    }}>
                         <BtnMain type="submit" class="btn pink font-size-mediun" text={<span> Contactar <AiOutlineArrowRight /></span>}/>
                     </div>
                 </div>

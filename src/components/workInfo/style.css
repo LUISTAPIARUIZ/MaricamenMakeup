@@ -36,6 +36,7 @@
 }
 .itemInfo p{
     text-align: center;
+    padding: 0 2rem;
 }
 
 .infoButton{
@@ -60,4 +61,8 @@
     grid-template-columns: 1fr 1fr ;
     grid-template-rows: auto;
     }
+    .itemInfo p{
+    padding: 0
+    }
+
 }

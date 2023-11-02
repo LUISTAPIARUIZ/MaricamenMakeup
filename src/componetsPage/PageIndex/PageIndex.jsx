@@ -10,8 +10,8 @@ const Pageindex =(props)=>{
     return(
         <div className='pageIndex'>
           <Slidermain/>
-          <Worlinfo/>
-          <PersonInfo/>
+          <Worlinfo selectPage={props.selectPage}/>
+          <PersonInfo selectPage={props.selectPage}/>
           <WorkGalery/> 
           <MarkInfo/>
         </div>

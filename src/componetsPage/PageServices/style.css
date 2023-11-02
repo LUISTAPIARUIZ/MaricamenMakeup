@@ -13,11 +13,15 @@
 }
 .contentServices{
     width: 100%;
-    height: 23rem;
+    height: auto;
     display: flex;
     justify-content: center;
-    background-color: #AEAEAE;
+    background-color: #a2a2a2;
     margin-bottom: 2.5rem;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+}
+.colorSecundary{
+    background-color:#887E7E;
 }    
 .servicesMain{
     width: 100%;
@@ -25,4 +29,29 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+.servicesMain figure{
+    max-height:20rem;
+}
+.servicesMain figure img {
+    object-fit: cover;
+    max-height: 20rem;
+}
+@media screen and (max-width: 649px) {
+  .servicesMain{
+    padding: 1rem 0 0 0 ;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    "imgMain"
+    "Description";
+    place-items: center;
+  }
+  .servicesMain figure{
+    grid-area: imgMain;
+  }
+  .servicesMain figure ,.servicesMain figure img {
+    max-height:15rem;
+}
 }

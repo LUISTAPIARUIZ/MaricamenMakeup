@@ -17,6 +17,10 @@ function App() {
     setPages(page)
     console.log(page)
     }
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
    }
   return (
     <div className="App">
@@ -24,7 +28,7 @@ function App() {
       <main className='contentMain'>
           <div className='Main'>  
               {pages==="Inicio" &&(
-                <Pageindex/>
+                <Pageindex selectPage={selectPage}/>
               )}   
               {pages==="Novias"  &&(
                 <PageGalery type={pages}/>

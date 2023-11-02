@@ -44,15 +44,17 @@
 @media (max-width: 1000px) {
     .contentInfoPerson{
         grid-template-columns: 1fr;
+        padding:1rem 2rem;
     }
     .contentImgPerson{
-        grid-row: 1
+        grid-row: 1;
+        max-height: 15rem;
+    }
+    .contentImgPerson img{
+        max-height: 15rem;
     }
     .infoPerson{
         text-align: center;
-    }
-    .contentInfoPerson{
-        padding:1rem 5rem;
     }
     .infoPerson h2{
         padding-bottom: 1rem;

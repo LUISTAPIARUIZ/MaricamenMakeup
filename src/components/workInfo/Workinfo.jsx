@@ -7,28 +7,28 @@ import imgCatalogo from "../workInfo/img/modelo.png"
 import imgCalendar from "../workInfo/img/ano-nuevo.png"
 
 
-const Worlinfo =()=>{
+const Worlinfo =(props)=>{
     // Objeto con datos
     const data = [
-    {
-      title: 'Elemento 1',
-      imgLink:imgBoda ,
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab esse, quia sequi nemo molestias omnis quaerat cumque atque nam distinctio debitis possimus cum nostrum. Inventore voluptas modi in quisquam obcaecati."
-    },
-    {
-        title: 'Elemento 1',
-        imgLink: imgFormacion,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab esse, quia sequi nemo molestias omnis quaerat cumque atque nam distinctio debitis possimus cum nostrum. Inventore voluptas modi in quisquam obcaecati."
+      {
+        title: 'NOVIAS',
+        imgLink:imgBoda ,
+        text: "En tu gran día, quiero que te sientas radiante. Mi objetivo es realzar tu belleza natural con un maquillaje que te haga lucir espectacular y que dure toda la jornada de tu boda."
       },
       {
-        title: 'Elemento 1',
+        title: 'CATALOGO',
         imgLink: imgCatalogo,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab esse, quia sequi nemo molestias omnis quaerat cumque atque nam distinctio debitis possimus cum nostrum. Inventore voluptas modi in quisquam obcaecati."
+        text: "Potencia tus productos con mi maquillaje de alta calidad. Juntos, haremos que tus productos luzcan increíbles en tus catálogos y campañas publicitarias."
       },
       {
-        title: 'Elemento 1',
+        title: 'EVENTOS',
         imgLink:imgCalendar,
-        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab esse, quia sequi nemo molestias omnis quaerat cumque atque nam distinctio debitis possimus cum nostrum. Inventore voluptas modi in quisquam obcaecati."
+        text: "Destaca en cualquier ocasión especial con mi maquillaje profesional. Estoy aquí para que te sientas segura y hermosa en cada evento."
+      },
+      {
+        title: 'FORMACION',
+        imgLink: imgFormacion,
+        text: "Si deseas aprender los secretos del maquillaje de manera relajada y divertida, estás en el lugar adecuado. Mis cursos te brindarán las habilidades necesarias para destacar en la industria del maquillaje. ¡Descubre tu pasión por la belleza!"
       }
   ];
   
@@ -58,8 +58,12 @@ const Worlinfo =()=>{
             </ul>
         </div>
         <div className="infoButton">
-            <div className="contentBtnMain">
-            <BtnMain type="submit" class="btn black font-size-mediun" text="ver más"/>
+            <div className="contentBtnMain" 
+                  onClick={() => {
+                  props.selectPage("Servicios");
+                  }}>
+            <BtnMain 
+                  class="btn black font-size-mediun" text="ver más"/>
             </div>
         </div>
     </section>

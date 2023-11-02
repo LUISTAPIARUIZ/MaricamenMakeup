@@ -16,12 +16,26 @@ const Pageservices =()=>{
                     <figure height="100%">
                         <img src={Persona} alt=""  height="100%" />
                     </figure>
-                    <Descriptionservices title={'Novias'} description={['hola asdasdasdasdasdasdasdasd','comoasdasdasdasdasdasdasd asd sadas dsad asd ','estaasdasd asd asd asda sdasdasdsads']}/>
+                    <Descriptionservices
+                    title={'NOVIAS'} 
+                    description={
+                        ['hola asdasdasdasdasdasdasdasd',
+                        'como asdasdasdasdasdasdasd asd sadas dsad asd ',
+                        'estaasdasd asd asd asda sdasdasdsads'
+                        ]}
+                    />
                 </div>
             </div>
-            <div className="contentServices">
+            <div className="contentServices colorSecundary">
                 <div className="servicesMain">
-                    <Descriptionservices title={'Novias'} description={['hola asdasdasdasdasdasdasdasd','comoasdasdasdasdasdasdasd asd sadas dsad asd ','estaasdasd asd asd asda sdasdasdsads']}/>
+                    <Descriptionservices 
+                    title={'EVENTOS'} 
+                    description={
+                        ['hola asdasdasdasdasdasdasdasd',
+                        'como asdasdasdasdasdasdasd asd sadas dsad asd ',
+                        'estaasdasd asd asd asda sdasdasdsads'
+                        ]}
+                        />
                     <figure height="100%">
                         <img src={Persona} alt=""  height="100%" />
                     </figure>
@@ -32,12 +46,26 @@ const Pageservices =()=>{
                     <figure height="100%">
                         <img src={Persona} alt=""  height="100%" />
                     </figure>
-                    <Descriptionservices title={'Novias'} description={['hola asdasdasdasdasdasdasdasd','comoasdasdasdasdasdasdasd asd sadas dsad asd ','estaasdasd asd asd asda sdasdasdsads']}/>
+                    <Descriptionservices 
+                    title={'CATALOGO'} 
+                    description={
+                        ['hola asdasdasdasdasdasdasdasd',
+                        'como asdasdasdasdasdasdasd asd sadas dsad asd ',
+                        'estaasdasd asd asd asda sdasdasdsads'
+                        ]}
+                    />
                 </div>
             </div>
-            <div className="contentServices">
+            <div className="contentServices colorSecundary">
                 <div className="servicesMain">
-                    <Descriptionservices title={'Novias'} description={['hola asdasdasdasdasdasdasdasd','comoasdasdasdasdasdasdasd asd sadas dsad asd ','estaasdasd asd asd asda sdasdasdsads']}/>
+                    <Descriptionservices 
+                    title={'FORMACION'} 
+                    description={
+                        ['hola asdasdasdasdasdasdasdasd',
+                        'comoa sdasdasdasdasdasdasd asd sadas dsad asd ',
+                        'estaasdasd asd asd asda sdasdasdsads'
+                        ]}
+                    />
                     <figure height="100%">
                         <img src={Persona} alt=""  height="100%" />
                     </figure>

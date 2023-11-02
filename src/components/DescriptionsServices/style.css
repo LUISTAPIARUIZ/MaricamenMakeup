@@ -1,4 +1,4 @@
-.contentDescriptio{
+.contentDescription{
     width: 35rem;
     height: 100%;
     padding: 1rem;
@@ -19,3 +19,19 @@
     bottom: -1.5rem;
     right: 5rem
 }
+@media screen and (max-width: 649px) {
+    .contentDescription{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .titleDescription{
+        text-align: center;
+    }
+    .textDescription{
+        padding:1.5rem 0  
+    }
+    .contentBtnCotizar{
+        left:calc(50% - 2.8rem);
+    }
+  }

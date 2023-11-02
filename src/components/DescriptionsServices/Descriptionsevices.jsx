@@ -7,7 +7,7 @@ const Descriptionservices = ({title , description})=>{
         <p>{"-"+descrip}</p>    
     )
     return(
-        <div className="contentDescriptio">
+        <div className="contentDescription">
             <h3 className="titleDescription">{title}</h3>
             <div className="textDescription">
                 {listDescription}
